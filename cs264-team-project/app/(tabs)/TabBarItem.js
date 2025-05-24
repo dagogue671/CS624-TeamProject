@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from "react-native";
 const TabBarItem = ({ title }) => {
   return (
     <View style = {styles.tabItem}>
-      <Text style  ={styles.tabText}>{title}</Text>
+      <Text style = {styles.tabText}>{title}</Text>
     </View>
   );
 };
