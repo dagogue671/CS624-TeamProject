@@ -34,7 +34,7 @@ const [wishlist, setWishlist] = useState(wishlistData);
 const removeFromWishlist = (id) => {
   const updatedList = wishlist.filter(item => item.id !== id);
   setWishlist(updatedList);
-  alert('Pressed');
+  //alert('Pressed');
 };
 
 
